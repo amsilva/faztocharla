@@ -1,13 +1,15 @@
 {
-  "name": "node-http-server",
+  "name": "faztocharla-sandbox",
   "version": "1.0.0",
-  "description": "Node.js example server starter project",
+  "description": "sandbox faztocharla",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js"
   },
   "dependencies": {
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "socket.io": "2.3.0",
+    "socket.io-client": "2.3.1"
   },
   "devDependencies": {
     "nodemon": "1.18.4"
